@@ -32,6 +32,7 @@ app.command('/helloworld', async ({ ack, payload, context }) => {
               type: 'plain_text',
               text: 'Click me!'
             },
+            value: 'test',
             action_id: 'button_abc'
           }
         }
